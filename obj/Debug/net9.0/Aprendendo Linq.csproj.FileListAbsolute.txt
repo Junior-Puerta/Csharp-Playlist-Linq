@@ -12,3 +12,4 @@ E:\Cursos\CSHARP\Projetos\Básico CSHARP\Aprendendo Linq\obj\Debug\net9.0\refint
 E:\Cursos\CSHARP\Projetos\Básico CSHARP\Aprendendo Linq\obj\Debug\net9.0\Aprendendo Linq.pdb
 E:\Cursos\CSHARP\Projetos\Básico CSHARP\Aprendendo Linq\obj\Debug\net9.0\Aprendendo Linq.genruntimeconfig.cache
 E:\Cursos\CSHARP\Projetos\Básico CSHARP\Aprendendo Linq\obj\Debug\net9.0\ref\Aprendendo Linq.dll
+E:\Cursos\CSHARP\Projetos\Básico CSHARP\Aprendendo Linq\obj\Debug\net9.0\Aprendendo Linq.sourcelink.json

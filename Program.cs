@@ -18,6 +18,34 @@ Console.WriteLine("Songs released in 1991");
 var songs1991 = songs
 .Where(x => x.ReleaseDate.Year == 1991)
 .ToList();
-foreach (var song in songs1991)
-    Console.WriteLine(song);
 
+foreach (var item in songs1991)
+{
+    Console.WriteLine(item.ToString());
+}
+
+Console.WriteLine("Songs released on October");
+var songsOnOctober = songs
+.Where(x => x.ReleaseDate.Month == 10)
+.ToList();
+
+foreach (var item in songsOnOctober) 
+Console.WriteLine(item.ToString());
+
+Console.WriteLine("Return songs released on October");
+var songsOrder = songs
+.OrderBy(x => x.Name)
+.ToList();
+
+foreach (var item in songsOrder)
+    Console.WriteLine(item.ToString());
+
+Console.WriteLine("Last two songs registered in alphabetical order");
+var lastTwoSongs = songs
+.OrderByDescending(x => x.Id)
+.Take(2)
+.OrderBy(x => x.Name)
+.ToList();
+
+foreach (var item in lastTwoSongs)
+    Console.WriteLine(item.ToString());
